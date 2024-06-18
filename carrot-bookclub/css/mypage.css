@@ -1,0 +1,297 @@
+.mypage {
+  margin: 0 auto;
+  width: 1300px;
+  height: 500px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+
+  gap: 20px;
+}
+
+.myinfo {
+  display: flex;
+  width: 400px;
+  padding: 23px 0 23px 23px;
+  border: 1px solid #ebebeb;
+  border-radius: 10px;
+  background-color: #fff;
+  margin-bottom: 10px;
+}
+
+.myinfo-detail {
+  display: flex;
+  width: 400px;
+
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 23px 0 23px 23px;
+  border: 1px solid #ebebeb;
+  border-radius: 10px;
+  background-color: #fff;
+}
+
+.myid {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  font-weight: 900;
+}
+
+.profile_thumb {
+  width: 90px;
+  height: 90px;
+  margin-right: 50px;
+}
+
+.unit {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  border-bottom: 1px solid #ebebeb;
+}
+
+.unit_content {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn {
+  display: inline-flex;
+  cursor: pointer;
+  align-items: center;
+  justify-content: center;
+  vertical-align: middle;
+  text-align: center;
+  color: rgba(34, 34, 34, 0.8);
+  background-color: #fff;
+}
+
+.small {
+  padding: 0 14px;
+  height: 34px;
+  border-radius: 10px;
+}
+
+.ptitle {
+  font-size: 13px;
+
+  font-weight: 400;
+  color: rgba(34, 34, 34, 0.5);
+}
+
+.desc {
+}
+
+.desc_modify {
+  padding-right: 58px;
+}
+
+.info-wrapper {
+  display: flex;
+}
+
+.cart {
+  display: flex;
+
+  margin-left: 10px;
+  width: 800px;
+  padding: 23px 0 23px 23px;
+  border: 1px solid #ebebeb;
+  border-radius: 10px;
+  background-color: #fff;
+}
+
+.info-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.cart-container {
+  width: 100%;
+}
+
+.empty {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+
+  text-align: center;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  font-size: 40px;
+
+  font-weight: 600;
+}
+
+#hl {
+  font-size: 90px;
+}
+
+#goItems {
+  width: 400px;
+  font-size: 20px;
+  padding: 15px 25px;
+  border-radius: 5px;
+  text-decoration: none;
+  background-color: darkorange;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  margin-top: 100px;
+}
+
+#goItems:hover {
+  background-color: #222;
+}
+
+.title {
+  display: flex;
+
+  justify-content: center;
+  padding-top: 10px;
+  padding-bottom: 40px;
+  text-align: center;
+  font-size: 24px;
+}
+#userid {
+  font-weight: 900;
+  font-size: 32px;
+}
+
+.container {
+  display: flex;
+}
+
+.item-list {
+  height: 100vh;
+}
+
+h1 {
+  text-align: center;
+}
+
+.board {
+  display: flex;
+  gap: 30px;
+}
+
+input {
+  padding: 0;
+  outline: 0;
+  border: 0;
+  resize: none;
+  border-radius: 0;
+  -webkit-appearance: none;
+  background-color: transparent;
+}
+
+.card {
+  border: 0.5;
+}
+
+.item-container {
+}
+
+.item-card {
+  display: flex;
+
+  text-align: center;
+  align-items: center;
+  justify-content: space-around;
+  width: 800px;
+  height: 200px;
+  border: 1px solid #ebebeb;
+  border-radius: 10px;
+}
+
+.item-info {
+  background-color: rgb(228, 240, 250);
+  border-radius: 10px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.item-info-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.item-name {
+  overflow: hidden;
+  display: inline-block;
+  vertical-align: top;
+  height: 17px;
+  line-height: 17px;
+  padding-bottom: 5px;
+  font-size: 18px;
+  font-weight: 700;
+  color: #222;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  max-width: 100%;
+}
+
+.item-desc {
+  line-height: 16px;
+  max-height: 34px;
+
+  white-space: normal;
+  font-size: 13px;
+  color: #222;
+  padding-bottom: 10px;
+}
+
+.item-price {
+  display: inline-block;
+  vertical-align: top;
+  line-height: 17px;
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: -0.04px;
+  padding-bottom: 10px;
+}
+
+.item-card img {
+  width: 140px;
+  height: 140px;
+  max-height: 200px;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+
+.item-card h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.item-card p {
+  font-size: 14px;
+  color: #777;
+  margin-bottom: 20px;
+}
+
+.item-card button {
+  padding: 5px 10px;
+  font-size: 15px;
+  color: #fff;
+  background-color: darkorange;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.item-card button:hover {
+  background-color: darkorange;
+}

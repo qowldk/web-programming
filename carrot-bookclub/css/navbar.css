@@ -1,0 +1,28 @@
+body {
+  background-color: white;
+}
+
+.nav-container {
+  margin: 0 auto;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.navbar {
+  background-color: darkgreen;
+  color: #fff;
+  padding: 18px;
+}
+
+.navbar a {
+  color: #fff;
+  text-decoration: none;
+  margin-right: 40px;
+}
+
+.login {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}

@@ -1,0 +1,137 @@
+/* Global styles */
+body {
+  font-family: "Arial", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+.navbar {
+  background-color: darkgreen;
+  padding: 18px 0;
+  color: white;
+}
+
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.logo a,
+.function a,
+.login a {
+  color: white;
+  text-decoration: none;
+  margin: 0 15px;
+}
+
+.function a:hover,
+.login a:hover {
+  text-decoration: underline;
+}
+
+.board-wrapper {
+  max-width: 1200px;
+  margin: 30px auto;
+  background-color: white;
+  padding: 20px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+h1 {
+  text-align: center;
+  color: #4caf50;
+  margin-bottom: 20px;
+}
+
+/* Table styles */
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+}
+
+.table th,
+.table td {
+  padding: 15px;
+  border-bottom: 1px solid #ddd;
+  text-align: left;
+}
+
+.table th {
+  background-color: #f4f4f4;
+  font-weight: bold;
+}
+
+.table tr:hover {
+  background-color: #f1f1f1;
+}
+
+/* Post link styles */
+.post {
+  text-decoration: none;
+  color: #4caf50;
+}
+
+.post:hover {
+  text-decoration: underline;
+}
+
+/* Search bar styles */
+.search {
+  margin: 20px 0;
+  display: flex;
+  justify-content: center;
+}
+
+.search-input {
+  display: flex;
+}
+
+.form-control {
+  height: 40px;
+  width: 300px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px 0 0 5px;
+  font-size: 16px;
+}
+
+.btn {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 0 5px 5px 0;
+  background-color: darkgreen;
+  color: white;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: darkgreen;
+}
+
+/* Button styles */
+.btn-login,
+.btn-logout,
+.btn-signup {
+  display: inline-block;
+  margin: 10px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: darkgreen;
+  color: white;
+  cursor: pointer;
+}
+
+.btn-login:hover,
+.btn-logout:hover,
+.btn-signup:hover {
+  background-color: darkgreen;
+}
