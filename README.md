@@ -31,3 +31,12 @@
 
   
 ## 🛠️ Tech Stack
+### Web
+- HTML
+- CSS
+- Javascript
+
+### Server + Database
+- Apache
+- MySQL
+- PHP
