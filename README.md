@@ -10,6 +10,24 @@
 
 
 ## 📖 Details of the app screens
+- 메인 페이지
+  
+![메인 페이지](https://github.com/qowldk/web-programming/blob/main/%EB%A9%94%EC%9D%B8%20%ED%8E%98%EC%9D%B4%EC%A7%80.png)
 
 
+- 구매 페이지
+
+![구매 페이지](https://github.com/qowldk/web-programming/blob/main/%EC%B1%85%20%EA%B5%AC%EB%A7%A4%20%ED%8E%98%EC%9D%B4%EC%A7%80.png)
+
+
+- 판매 페이지
+
+![판매 페이지](https://github.com/qowldk/web-programming/blob/main/%EC%B1%85%20%ED%8C%90%EB%A7%A4%20%ED%8E%98%EC%9D%B4%EC%A7%80.png)
+
+
+- 소통 게시판
+
+![소통 게시판](https://github.com/qowldk/web-programming/blob/main/%EC%86%8C%ED%86%B5%20%EA%B2%8C%EC%8B%9C%ED%8C%90.png)
+
+  
 ## 🛠️ Tech Stack
